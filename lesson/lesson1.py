@@ -3,6 +3,7 @@
 # 3 полиморфизм
 
 
+
 cat = 'Beka'
 cat = 'esdgf'
 
