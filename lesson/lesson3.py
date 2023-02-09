@@ -54,6 +54,8 @@ class Cat:
 
 cat3 = Cat('Эрик', 3)
 # cat3.set_name('Барсик')
-cat3.name = ''
+# cat3.name = ''
 
 print(cat3.name)
+d=9
+Cat.x(d)
