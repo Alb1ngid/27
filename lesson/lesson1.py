@@ -37,9 +37,9 @@ class Cat:
         print(self)
 
 
-# print(type(cat))
-#
-# class Str:...
+print(type(cat))
+
+class Str:...
 
 if __name__ == '__main__':
     cat1 = Cat('болотбек', 4)
