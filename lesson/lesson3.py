@@ -3,6 +3,9 @@
 # защищенный _
 # скрытый __
 
+import lesson2
+from lesson2 import *
+
 class Cat:
     xвост = True
 
