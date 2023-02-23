@@ -3,9 +3,8 @@
 # защищенный _
 # скрытый __
 
-import lesson2
-from lesson2 import *
-
+# import lesson2
+# from lesson2 import *
 class Cat:
     xвост = True
 
@@ -39,26 +38,28 @@ class Cat:
         self._x2()
 
 
-# cat = Cat('Beka', 4)
-# cat.name = 'qwertyu'
-# print(cat, cat.name)
-# # cat.may()
-# cat2 = Cat('Бегимай', 4)
-# cat2._name = 'Бегайым'
-# print(cat2)
-# cat2.x()
-# cat2._x2()
-# cat2.__age = 'q'
-# print(cat2)
-# print(dir(Cat))
-# cat2._Cat__age = 9
-# print(cat2._Cat__age)
-# cat2._Cat__may()
-
+# # cat = Cat('Beka', 4)
+# # cat.name = 'qwertyu'
+# # print(cat, cat.name)
+# # # cat.may()
+# # cat2 = Cat('Бегимай', 4)
+# # cat2._name = 'Бегайым'
+# # print(cat2)
+# # cat2.x()
+# # cat2._x2()
+# # cat2.__age = 'q'
+# # print(cat2)
+# # print(dir(Cat))
+# # cat2._Cat__age = 9
+# # print(cat2._Cat__age)
+# # cat2._Cat__may()
+#
 cat3 = Cat('Эрик', 3)
-# cat3.set_name('Барсик')
-# cat3.name = ''
+# # cat3.set_name('Барсик')
+# # cat3.name = ''
+#
+# print(cat3.name)
+# d=9
+# Cat.x(d)
 
-print(cat3.name)
-d=9
-Cat.x(d)
+print(cat3._Cat__age)

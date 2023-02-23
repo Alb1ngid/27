@@ -6,11 +6,11 @@ class A:
         print('это функция А')
 
 
-class B(A): ...
+class B(A):...
 
 
-# def p(self=True):
-#     print('это функция Б')
+def p(self=True):
+    print('это функция Б')
 
 
 class C:
@@ -36,4 +36,11 @@ p.p()
 # A.p(p)
 print(p.name,p.age)
 
+
 print(V.mro())
+
+
+
+
+print(dir(V))
+

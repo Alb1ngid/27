@@ -47,3 +47,5 @@ per2.prints()
 per1.prints()
 per2.x()
 # print(per1.people, per2.people)
+
+
