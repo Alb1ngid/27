@@ -1,10 +1,12 @@
 # 3 инкапсуляция
+
 # публичный
 # защищенный _
 # скрытый __
 
 # import lesson2
 # from lesson2 import *
+
 class Cat:
     xвост = True
 
@@ -38,6 +40,7 @@ class Cat:
         self._x2()
 
 
+print()
 # # cat = Cat('Beka', 4)
 # # cat.name = 'qwertyu'
 # # print(cat, cat.name)
@@ -61,5 +64,9 @@ cat3 = Cat('Эрик', 3)
 # print(cat3.name)
 # d=9
 # Cat.x(d)
-
 print(cat3._Cat__age)
+print(cat3._Cat__may())
+
+
+print(cat3._name)
+#print(cat3.__age)

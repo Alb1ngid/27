@@ -5,6 +5,3 @@
 # soure venv/bin/activate
 # deactivate
 # pip install -r t.txt
-
-
-
